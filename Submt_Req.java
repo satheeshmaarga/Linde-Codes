@@ -56,6 +56,7 @@ public class Submt_Req {
   	  String id = ele1.getTagName();
   	  System.out.println(id);  	  
   	  //driver1.findElement(By.partialLinkText(text)).click();
+	  System.out.println("1st updated code section to check whether commited")
   	  }
 }
   
