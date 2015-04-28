@@ -57,6 +57,7 @@ public class Submt_Req {
   	  System.out.println(id);  	  
   	  //driver1.findElement(By.partialLinkText(text)).click();
 	  System.out.println("1st updated code section to check whether commited")
+System.out.println("1st updated code section to check whether commited")
   	  }
 }
   

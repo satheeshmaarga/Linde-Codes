@@ -19,7 +19,8 @@ public class Asign {
 		WebElement element = driver.findElement(By.id("view:_id1:_id4:callback1:tabPanel1:_id167:repeat3:0:repeat1:9:computedField2"));
 		Actions action = new Actions(driver);
 		action.moveToElement(element).perform();
-		driver.findElement(By.partialLinkText("Assign to Self")).click();		
+		driver.findElement(By.partialLinkText("Assign to Self")).click();
+		driver.close();
 		
 		//moveToElement(driver.findElement(By.partialLinkText(" Assign to Self "))).build().perform();
 	}
